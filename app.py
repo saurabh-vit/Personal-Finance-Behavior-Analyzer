@@ -1,5 +1,5 @@
-from src.personal_finance_behavior_analyzer.logger import logging
-from src.personal_finance_behavior_analyzer.exception import CustomException
+from personal_finance_behavior_analyzer.utils.logger import logging
+from personal_finance_behavior_analyzer.utils.exception import CustomException
 import sys
 
 if __name__ == "__main__":

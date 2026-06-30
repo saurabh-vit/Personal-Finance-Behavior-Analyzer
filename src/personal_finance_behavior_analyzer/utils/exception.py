@@ -1,5 +1,5 @@
 import sys
-from src.personal_finance_behavior_analyzer.logger import logging
+from personal_finance_behavior_analyzer.utils.logger import logging
 
 def error_message_detail(error, errors_detail:sys):
     _, _, exc_tb = errors_detail.exc_info()
